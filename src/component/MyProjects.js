@@ -6,13 +6,25 @@ function MyProjects() {
     <div className="mp">
       <header>My projects</header>
       <div className="mpl">
-        <a href="https://twitter.com/home" target="_blank">
+        <a
+          href="https://twitter.com/home"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Twitter clone{" "}
         </a>
-        <a href="https://twitter.com/home" target="_blank">
+        <a
+          href="https://twitter.com/home"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Facebook clone{" "}
         </a>
-        <a href="https://twitter.com/home" target="_blank">
+        <a
+          href="https://twitter.com/home"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Insta clone{" "}
         </a>
       </div>
