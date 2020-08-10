@@ -1,0 +1,42 @@
+.tc-main .mp {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tc-main .mp header {
+  font-size: 24px;
+  text-align: center;
+  background-color: #095e36;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tc-main .mp header:hover {
+  background: linear-gradient(to right, red, blue);
+}
+
+.mp .mpl {
+  border: 2px solid royalblue;
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mp .mpl a {
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.mp .mpl a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  color: rgb(26, 145, 218);
+}

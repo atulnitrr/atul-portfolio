@@ -1,0 +1,28 @@
+.tc-ls {
+  border: 2px solid seagreen;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.tc-ls .tc-ls-l-w {
+  /* border: 2px solid seagreen; */
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  /* display: flex; */
+}
+
+.tc-ls .tc-ls-l-w a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tc-ls .tc-ls-l-w a:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  transform: scale(1.2);
+  color: #000;
+  border-radius: 25px;
+}
