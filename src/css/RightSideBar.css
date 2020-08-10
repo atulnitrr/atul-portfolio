@@ -1,0 +1,40 @@
+.tc-rs {
+  /* border: 1px solid rebeccapurple; */
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tc-rs .tc-ts {
+  flex: 1 1 0;
+  /* border: 1px solid green; */
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tc-ts .ts-tn {
+  /* border: 1px solid goldenrod; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.tc-ts p {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.tc-ts .ts-tn span {
+  padding: 10px 25px;
+  margin: 2px 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tc-ts .ts-tn span:hover {
+  background-color: rgb(26, 145, 218, 0.8);
+}

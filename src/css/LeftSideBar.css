@@ -1,8 +1,9 @@
 .tc-ls {
-  border: 2px solid seagreen;
+  /* border: 2px solid seagreen; */
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .tc-ls .tc-ls-l-w {
   /* border: 2px solid seagreen; */
@@ -14,14 +15,16 @@
 
 .tc-ls .tc-ls-l-w a {
   text-decoration: none;
-  padding: 10px;
+  padding: 5px 10px;
+  margin: 6px 0;
   font-size: 22px;
+
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .tc-ls .tc-ls-l-w a:hover {
-  background-color: rgba(29, 161, 242, 0.1);
+  background-color: rgba(29, 161, 242, 0.3);
   transform: scale(1.2);
   color: #000;
   border-radius: 25px;

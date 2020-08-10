@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/MyProjects.css";
 
 function MyProjects() {
+  useEffect(() => {
+    document.title = "AP | Projects";
+  }, []);
   return (
     <div className="mp">
       <header>My projects</header>

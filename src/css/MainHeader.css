@@ -1,0 +1,11 @@
+.tc-h {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-bottom: rgba(255, 255, 255, 0.2);
+}

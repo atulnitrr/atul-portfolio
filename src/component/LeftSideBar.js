@@ -6,9 +6,9 @@ function LeftSideBar() {
   return (
     <aside className="top-container-item tc-ls">
       <div className="tc-ls-l-w">
-        <Link to="/">home</Link>
-        <Link to="/myprojects">myprojects</Link>
-        <Link to="/usefulinks">usefullinks</Link>
+        <Link to="/">Home</Link>
+        <Link to="/myprojects">MyProjects</Link>
+        <Link to="/usefulinks">UsefulLinks</Link>
       </div>
     </aside>
   );
