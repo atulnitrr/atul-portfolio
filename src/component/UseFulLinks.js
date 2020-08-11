@@ -29,7 +29,22 @@ function UseFulLinks() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          pny fooo{" "}
+          pony fooo{" "}
+        </a>
+
+        <a
+          href="https://edgedb.com/blog/we-can-do-better-than-sql/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          we can do better than sql{" "}
+        </a>
+        <a
+          href="https://davnicwil.com/#blog-posts/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          nice to have problem{" "}
         </a>
       </div>
     </div>
