@@ -9,6 +9,7 @@ function LeftSideBar() {
         <Link to="/">Home</Link>
         <Link to="/myprojects">MyProjects</Link>
         <Link to="/usefulinks">UsefulLinks</Link>
+        <Link to="/interviewcorner">InterviewCorner</Link>
       </div>
     </aside>
   );

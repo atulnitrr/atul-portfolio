@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import MyProjects from "./MyProjects";
 import UseFulLinks from "./UseFulLinks";
 import NotFound from "./NotFound";
+import InterviewCorners from "./InterviewCorners";
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
         <Route path="/" component={MyProjects} exact />
         <Route path="/myprojects" component={MyProjects} exact />
         <Route path="/usefulinks" component={UseFulLinks} exact />
+        <Route path="/interviewcorner" component={InterviewCorners} exact />
         <Route>
           <NotFound></NotFound>
         </Route>
