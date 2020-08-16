@@ -68,11 +68,11 @@ function MyProjects() {
             <div className="pdurl">
               <span>Backend url : </span>{" "}
               <a
-                href="https://ak-chat-back.herokuapp.com//"
+                href="https://ak-chat-back.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://ak-chat-back.herokuapp.com/
+                https://ak-chat-back.herokuapp.com
               </a>
             </div>
             <div>
