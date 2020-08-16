@@ -6,12 +6,13 @@
 
 .top-container {
   /* border: 1px solid red; */
-  min-height: 100vh;
+  height: 100vh;
   display: grid;
-  grid-template: minmax(56px, auto) 1fr / minmax(auto, 400px) minmax(300px, 1fr) minmax(
+  grid-template: minmax(56px, auto) 1fr / minmax(auto, 300px) minmax(300px, 1fr) minmax(
       auto,
-      400px
+      350px
     );
+  overflow: auto;
 }
 
 .top-container .top-container-item:not(.tc-ls) {

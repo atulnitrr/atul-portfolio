@@ -4,7 +4,7 @@ function RightSideBar() {
   return (
     <aside className="top-container-item tc-rs">
       <div className="tc-ts">
-        <p>Fontend</p>
+        <p>Frontends</p>
         <div className="ts-tn">
           <span>reactjs</span>
           <span>javascript</span>
@@ -13,7 +13,7 @@ function RightSideBar() {
         </div>
       </div>
       <div className="tc-ts">
-        <p>Backend</p>
+        <p>Backends</p>
         <div className="ts-tn">
           <span>Java</span>
           <span>SpringBoot</span>
@@ -21,7 +21,7 @@ function RightSideBar() {
         </div>
       </div>
       <div className="tc-ts">
-        <p>Database</p>
+        <p>Databases</p>
         <div className="ts-tn">
           <span>MySql</span>
           <span>Mongo</span>

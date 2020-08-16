@@ -1,35 +1,88 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../css/MyProjects.css";
+import useGetPageTitle from "./hooks/useGetPageTitile";
 
 function MyProjects() {
-  useEffect(() => {
-    document.title = "AP | Projects";
-  }, []);
+  useGetPageTitle("Projects");
   return (
     <div className="mp">
       <header>My projects</header>
       <div className="mpl">
-        <a
-          href="https://twitter.com/home"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Twitter clone{" "}
-        </a>
-        <a
-          href="https://twitter.com/home"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Facebook clone{" "}
-        </a>
-        <a
-          href="https://twitter.com/home"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Insta clone{" "}
-        </a>
+        <div className="singleproject">
+          <a
+            href="https://atulnitrr-chat-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Chat app{" "}
+          </a>
+          <div className="pd">
+            <div className="pdurl">
+              <span>Project url : </span>{" "}
+              <a
+                href="https://atulnitrr-chat-app.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://atulnitrr-chat-app.netlify.app
+              </a>
+            </div>
+            <div className="pdurl">
+              <span>Backend url : </span>{" "}
+              <a
+                href="https://ak-chat-back.herokuapp.com//"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://ak-chat-back.herokuapp.com/
+              </a>
+            </div>
+            <div>
+              <span>Frontend tech </span> : React js
+            </div>
+            <div>
+              <span>Backend tech </span> : NodeJs
+            </div>
+          </div>
+        </div>
+
+        <div className="singleproject">
+          <a
+            href="https://atulnitrr-chat-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Chat v2{" "}
+          </a>
+          <div className="pd">
+            <div className="pdurl">
+              <span>Project url : </span>{" "}
+              <a
+                href="https://atulnitrr-chat-app.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://atulnitrr-chat-app.netlify.app
+              </a>
+            </div>
+            <div className="pdurl">
+              <span>Backend url : </span>{" "}
+              <a
+                href="https://ak-chat-back.herokuapp.com//"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://ak-chat-back.herokuapp.com/
+              </a>
+            </div>
+            <div>
+              <span>Frontend tech </span> : React js
+            </div>
+            <div>
+              <span>Backend tech </span> : NodeJs
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

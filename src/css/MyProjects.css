@@ -28,15 +28,48 @@
   flex-direction: column;
 }
 
-.mp .mpl a {
+.mp .mpl .singleproject {
+  /* border: 1px solid seagreen; */
+  position: relative;
+}
+.mp .mpl .singleproject a {
+  display: block;
   text-decoration: none;
-  padding: 5px 10px;
-  transition: all 0.2s;
-  cursor: pointer;
+  margin: 0;
+  padding: 3px 10px;
+  /* color: #fff; */
 }
 
-.mp .mpl a:hover {
+.mp .mpl .singleproject .pd a {
+  color: #fff;
+}
+
+.mp .mpl .singleproject a:hover {
   background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 25px;
   color: rgb(26, 145, 218);
+}
+
+.mp .mpl .singleproject .pd {
+  display: none;
+  position: absolute;
+  top: 100%;
+  z-index: 5;
+}
+
+.mp .mpl .singleproject:hover .pd {
+  display: block;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+}
+
+.pd .pdurl {
+  display: flex;
+  align-items: center;
+}
+
+.mp .mpl .singleproject:hover {
 }

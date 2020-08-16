@@ -1,9 +1,11 @@
 import React from "react";
 import "../css/MyProjects.css";
+import useGetPageTitle from "./hooks/useGetPageTitile";
 
 function InterviewCorners() {
+  useGetPageTitle("Interview Corners");
   return (
-    <div className="mp">
+    <div className="myresources">
       <header>Interview Corners</header>
       <div className="mpl">
         <a

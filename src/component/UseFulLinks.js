@@ -1,13 +1,12 @@
-import React, { useEffect } from "react";
-import "../css/MyProjects.css";
+import React from "react";
+import "../css/Resource.css";
+import useGetPageTitle from "./hooks/useGetPageTitile";
 
 function UseFulLinks() {
-  useEffect(() => {
-    document.title = "AP | LINKS ";
-  }, []);
+  useGetPageTitle("Links");
 
   return (
-    <div className="mp">
+    <div className="myresources">
       <header>My links</header>
       <div className="mpl">
         <a

@@ -1,0 +1,39 @@
+.myresources {
+  display: flex;
+  flex-direction: column;
+}
+
+.myresources header {
+  font-size: 24px;
+  text-align: center;
+  background-color: #095e36;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.myresources header:hover {
+  background: linear-gradient(to right, red, blue);
+}
+
+.myresources .mpl {
+  display: flex;
+  flex-direction: column;
+}
+
+.myresources .mpl a {
+  font-size: 22px;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.myresources a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  color: rgb(26, 145, 218);
+}

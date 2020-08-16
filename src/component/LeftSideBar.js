@@ -8,7 +8,8 @@ function LeftSideBar() {
       <div className="tc-ls-l-w">
         <Link to="/">Home</Link>
         <Link to="/myprojects">MyProjects</Link>
-        <Link to="/usefulinks">UsefulLinks</Link>
+        <Link to="/usefulinks">UsefulBlogs</Link>
+        <Link to="/nodejs">NodejsResources</Link>
         <Link to="/interviewcorner">InterviewCorner</Link>
       </div>
     </aside>
