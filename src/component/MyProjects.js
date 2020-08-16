@@ -10,7 +10,7 @@ function MyProjects() {
       <div className="mpl">
         <div className="singleproject">
           <a
-            href="https://atulnitrr-chat-app.netlify.app/"
+            href="https://atulnitrr-chat-app.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -20,7 +20,7 @@ function MyProjects() {
             <div className="pdurl">
               <span>Project url : </span>{" "}
               <a
-                href="https://atulnitrr-chat-app.netlify.app/"
+                href="https://atulnitrr-chat-app.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -30,11 +30,11 @@ function MyProjects() {
             <div className="pdurl">
               <span>Backend url : </span>{" "}
               <a
-                href="https://ak-chat-back.herokuapp.com//"
+                href="https://ak-chat-back.herokuapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://ak-chat-back.herokuapp.com/
+                https://ak-chat-back.herokuapp.com
               </a>
             </div>
             <div>
@@ -48,7 +48,7 @@ function MyProjects() {
 
         <div className="singleproject">
           <a
-            href="https://atulnitrr-chat-app.netlify.app/"
+            href="https://atulnitrr-chat-app.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -68,7 +68,7 @@ function MyProjects() {
             <div className="pdurl">
               <span>Backend url : </span>{" "}
               <a
-                href="https://ak-chat-back.herokuapp.com/"
+                href="https://ak-chat-back.herokuapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
