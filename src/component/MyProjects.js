@@ -37,11 +37,36 @@ function MyProjects() {
                 https://ak-chat-back.herokuapp.com
               </a>
             </div>
-            <div>
-              <span>Frontend tech </span> : React js
+            <div className="pdurl">
+              <span>Forntend github : </span>{" "}
+              <a
+                href="https://github.com/atulnitrr/chat_front"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/atulnitrr/chat_front
+              </a>
+            </div>
+            <div className="pdurl">
+              <span>Backend github : </span>{" "}
+              <a
+                href="https://github.com/atulnitrr/chat_back"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/atulnitrr/chat_back
+              </a>
             </div>
             <div>
-              <span>Backend tech </span> : NodeJs
+              <span>Frontend tech </span> : ReactJs {",  "}
+              <span>Grid {",  "}</span>
+              <span>FlexBox {", "}</span>
+              <span className="danger">No external css libray </span>
+            </div>
+            <div>
+              <span>Backend tech </span> : NodeJs {",   "}
+              <span>Express {",  "}</span>
+              <span>Socket.io {"  "}</span>
             </div>
           </div>
         </div>

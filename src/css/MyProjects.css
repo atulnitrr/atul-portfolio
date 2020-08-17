@@ -41,7 +41,9 @@
 }
 
 .mp .mpl .singleproject .pd a {
-  color: #fff;
+  /* color: #fff; */
+  color: rgb(26, 145, 218);
+  color: yellowgreen;
 }
 
 .mp .mpl .singleproject a:hover {
@@ -72,4 +74,9 @@
 }
 
 .mp .mpl .singleproject:hover {
+}
+
+.danger {
+  background-color: red;
+  padding: 2px 5px;
 }
