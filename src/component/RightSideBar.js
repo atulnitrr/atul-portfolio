@@ -27,6 +27,21 @@ function RightSideBar() {
           <span>Mongo</span>
         </div>
       </div>
+      <div className="tc-ts">
+        <p>Other Techs</p>
+        <div className="ts-tn">
+          <span>RabbitMQ</span>
+          <span>Socket.io</span>
+        </div>
+      </div>
+      <div className="tc-ts">
+        <p>Tools</p>
+        <div className="ts-tn">
+          <span>VSCode</span>
+          <span>Intellije</span>
+          <span>Git</span>
+        </div>
+      </div>
     </aside>
   );
 }
