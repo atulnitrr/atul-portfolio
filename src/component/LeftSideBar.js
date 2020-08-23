@@ -10,7 +10,8 @@ function LeftSideBar() {
         <Link to="/myprojects">MyProjects</Link>
         <Link to="/usefulinks">UsefulBlogs</Link>
         <Link to="/nodejs">NodejsResources</Link>
-        <Link to="/interviewcorner">InterviewCorner</Link>
+        <Link to="/js">JavaScriptResources</Link>
+        <Link to="/ic">InterviewCorner</Link>
       </div>
     </aside>
   );

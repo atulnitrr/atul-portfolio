@@ -38,7 +38,7 @@ function RightSideBar() {
         <p>Tools</p>
         <div className="ts-tn">
           <span>VSCode</span>
-          <span>Intellije</span>
+          <span>IntelliJ</span>
           <span>Git</span>
         </div>
       </div>
