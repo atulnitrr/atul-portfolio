@@ -6,6 +6,7 @@ import NotFound from "./NotFound";
 import InterviewCorners from "./InterviewCorners";
 import NodeResource from "./NodeResource";
 import JavaScriptResources from "./resources/JavaScriptResources";
+import Setups from "./Setups";
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
         <Route path="/usefulinks" component={UseFulLinks} exact />
         <Route path="/nodejs" component={NodeResource} exact />
         <Route path="/js" component={JavaScriptResources} exact />
+        <Route path="/setups" component={Setups} exact />
         <Route path="/ic" component={InterviewCorners} exact />
         <Route>
           <NotFound></NotFound>

@@ -4,6 +4,7 @@ import usefulLinkInitialState from "./usefulLInksInitialState";
 import nodejsInitialState from "./nodejsinitialState";
 import icInitialState from "./interviewcornerInitialState";
 import jsrInitialState from "./javaScriptResourcesInitialState";
+import setupInitialState from "./setupInitialState";
 
 const AppContext = createContext();
 
@@ -12,6 +13,7 @@ const appInitialState = {
   nodejsInitialState: nodejsInitialState,
   icInitialState: icInitialState,
   jsInitialState: jsrInitialState,
+  setupInitialState: setupInitialState,
 };
 
 export default AppContext;
