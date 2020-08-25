@@ -5,6 +5,7 @@ import nodejsInitialState from "./nodejsinitialState";
 import icInitialState from "./interviewcornerInitialState";
 import jsrInitialState from "./javaScriptResourcesInitialState";
 import setupInitialState from "./setupInitialState";
+import reactJsInitialState from "./reactJsResourceInitialState";
 
 const AppContext = createContext();
 
@@ -13,6 +14,7 @@ const appInitialState = {
   nodejsInitialState: nodejsInitialState,
   icInitialState: icInitialState,
   jsInitialState: jsrInitialState,
+  rjsInitialState: reactJsInitialState,
   setupInitialState: setupInitialState,
 };
 

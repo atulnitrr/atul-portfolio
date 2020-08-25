@@ -17,6 +17,9 @@ function MyProjects() {
             Chat app{" "}
           </a>
           <div className="pd">
+            <div>
+              <span>Description: </span> Discord like chat app
+            </div>
             <div className="pdurl">
               <span>Project url : </span>{" "}
               <a
@@ -73,38 +76,69 @@ function MyProjects() {
 
         <div className="singleproject">
           <a
-            href="https://atulnitrr-chat-app.netlify.app"
+            href="https://atulnitrr-project-tracker.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Chat v2{" "}
+            Project tracker{" "}
           </a>
           <div className="pd">
+            <div>
+              <span>Description: </span> Jira like system to track progress of
+              project, like creating user story , task etc.
+            </div>
             <div className="pdurl">
               <span>Project url : </span>{" "}
               <a
-                href="https://atulnitrr-chat-app.netlify.app/"
+                href="https://atulnitrr-project-tracker.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://atulnitrr-chat-app.netlify.app
+                https://atulnitrr-project-tracker.netlify.app/
               </a>
             </div>
             <div className="pdurl">
               <span>Backend url : </span>{" "}
               <a
-                href="https://ak-chat-back.herokuapp.com"
+                href="https://atulknitrr-project-tracker.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://ak-chat-back.herokuapp.com
+                https://atulknitrr-project-tracker.herokuapp.com/
+              </a>
+            </div>
+            <div className="pdurl">
+              <span>Forntend github : </span>{" "}
+              <a
+                href="https://github.com/atulnitrr/project_tracker_front"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/atulnitrr/project_tracker_front
+              </a>
+            </div>
+            <div className="pdurl">
+              <span>Backend github : </span>{" "}
+              <a
+                href="https://github.com/atulnitrr/project_tracker_back"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/atulnitrr/project_tracker_back
               </a>
             </div>
             <div>
-              <span>Frontend tech </span> : React js
+              <span>Frontend tech </span> : ReactJs {",  "}
+              <span>Grid {",  "}</span>
+              <span>FlexBox {", "}</span>
+              <span className="danger">No external css libray </span>
             </div>
             <div>
-              <span>Backend tech </span> : NodeJs
+              <span>Backend tech </span> : NodeJs {",   "}
+              <span>Express </span>
+            </div>
+            <div>
+              <span>Database </span> : Postgresql
             </div>
           </div>
         </div>

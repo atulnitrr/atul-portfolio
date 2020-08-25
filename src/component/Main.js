@@ -7,16 +7,19 @@ import InterviewCorners from "./InterviewCorners";
 import NodeResource from "./NodeResource";
 import JavaScriptResources from "./resources/JavaScriptResources";
 import Setups from "./Setups";
+import Home from "./Home";
+import ReactJsResource from "./resources/ReactJsResource";
 
 function Main() {
   return (
     <main className="top-container-item tc-main">
       <Switch>
-        <Route path="/" component={MyProjects} exact />
+        <Route path="/" component={Home} exact />
         <Route path="/myprojects" component={MyProjects} exact />
         <Route path="/usefulinks" component={UseFulLinks} exact />
         <Route path="/nodejs" component={NodeResource} exact />
         <Route path="/js" component={JavaScriptResources} exact />
+        <Route path="/rjs" component={ReactJsResource} exact />
         <Route path="/setups" component={Setups} exact />
         <Route path="/ic" component={InterviewCorners} exact />
         <Route>

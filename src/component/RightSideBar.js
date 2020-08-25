@@ -6,8 +6,8 @@ function RightSideBar() {
       <div className="tc-ts">
         <p>Frontends</p>
         <div className="ts-tn">
-          <span>reactjs</span>
-          <span>javascript</span>
+          <span>Reactjs</span>
+          <span>Javascript</span>
           <span>html</span>
           <span>css</span>
         </div>
@@ -23,7 +23,8 @@ function RightSideBar() {
       <div className="tc-ts">
         <p>Databases</p>
         <div className="ts-tn">
-          <span>MySql</span>
+          <span>PostgreSQL</span>
+          <span>MySQL</span>
           <span>Mongo</span>
         </div>
       </div>
