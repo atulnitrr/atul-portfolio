@@ -1,11 +1,18 @@
 .tc-h {
   font-size: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template: minmax(56px, auto) 1fr / minmax(auto, 300px) minmax(300px, 1fr) minmax(
+      auto,
+      350px
+    );
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #fff;
   border-bottom: rgba(255, 255, 255, 0.2);
+  place-items: center;
+}
+
+.tc-h > * {
+  flex: 1 1 0;
 }
