@@ -1,0 +1,25 @@
+.rs-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.rs-wrapper > * {
+  margin: 5px 0;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.home-nav > * {
+  padding: 5px 10px;
+}
+
+a:hover {
+  cursor: pointer;
+  /* background: rgba(0, 0, 0, 0.3); */
+  /* border-radius: 25px; */
+  text-decoration: underline;
+}

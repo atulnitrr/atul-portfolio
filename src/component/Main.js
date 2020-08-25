@@ -14,7 +14,6 @@ function Main() {
   return (
     <main className="top-container-item tc-main">
       <Switch>
-        <Route path="/" component={Home} exact />
         <Route path="/myprojects" component={MyProjects} exact />
         <Route path="/usefulinks" component={UseFulLinks} exact />
         <Route path="/nodejs" component={NodeResource} exact />
@@ -22,6 +21,7 @@ function Main() {
         <Route path="/rjs" component={ReactJsResource} exact />
         <Route path="/setups" component={Setups} exact />
         <Route path="/ic" component={InterviewCorners} exact />
+        <Route path="/" component={Home} />
         <Route>
           <NotFound></NotFound>
         </Route>

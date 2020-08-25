@@ -5,7 +5,7 @@ import ResourceLinks from "./ResourceLinks";
 import AppContext from "./context/AppContext";
 
 function Setups() {
-  useGetPageTitle("setups and installation");
+  useGetPageTitle("Setups and installation");
   const {
     appInitialState: { setupInitialState },
   } = useContext(AppContext);

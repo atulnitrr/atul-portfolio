@@ -28,5 +28,6 @@
   transform: scale(1.2);
   color: #000;
   border-radius: 25px;
+  text-decoration: underline;
   /* transform: rotateX(360deg); */
 }
