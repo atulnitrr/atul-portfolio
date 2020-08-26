@@ -47,10 +47,9 @@ function WorkHistory(props) {
                 </li>
                 <li>5 differnt teams are dependent on this service.</li>
                 <li>
-                  <strong>Imapct : </strong> : Every single booking on
-                  MakeMyTrip and GOIBIBO uses the pnr service. If pnr service is
-                  down for even 30 mins, aroud 100 customer wont get ticket on
-                  time.
+                  <strong>Imapct : </strong> Every single booking on MakeMyTrip
+                  and GOIBIBO uses the pnr service. If pnr service is down for
+                  even 30 mins, aroud 100 customer wont get ticket on time.
                 </li>
                 <li>
                   <strong>Award : </strong>

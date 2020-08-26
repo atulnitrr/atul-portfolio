@@ -1,0 +1,33 @@
+.ac-w {
+  /* border: 1px solid red; */
+  /* background-color: #f0f2f5; */
+}
+
+.ac-card-wrapper {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  /* border: 1px solid seagreen; */
+}
+
+.ac-card-wrapper .ac-card {
+  background-color: #fff;
+  /* border: 1px solid rebeccapurple; */
+  padding: 15px;
+  min-height: 300px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ac-card-wrapper .ac-card .ac-card-elem {
+  display: flex;
+  align-items: center;
+}
+
+.ac-card-wrapper .ac-card .ac-card-elem > * {
+  flex: 1 1 0;
+}
