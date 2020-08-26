@@ -21,16 +21,17 @@ function WorkHistory(props) {
               <ul>
                 <li>
                   <strong>Goal : </strong>
-                  Project wast to buid a common data store for bookings for both
-                  MMT and GOIBIBO brand.
+                  Project was to build a common data store for bookings for both
+                  of MMT and GOIBIBO brand.
                 </li>
                 <li>
-                  Designed common data store in mongo DB for both GOIBIBO and
+                  Designed common data store in mongo DB for both of GOIBIBO and
                   MMT.
                 </li>
                 <li>
-                  This data store, keeps all info releated to a booking(i.e.
-                  FlightDetails, UserDetails, PlatformDetails, PaymentInfo etc).
+                  This data store, keeps all information releated to a
+                  booking(i.e. FlightDetails, UserDetails, PlatformDetails,
+                  PaymentInfo etc).
                 </li>
                 <li>
                   Built very critical backend pnr service in java, that
