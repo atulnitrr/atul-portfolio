@@ -1,0 +1,26 @@
+.aw-w-cw {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.aw-w-cw .aw-card {
+  padding: 10px 5px;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 300px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.aw-w-cw .aw-card > * {
+  margin-top: 10px;
+}
+
+.aw-card img {
+  width: 100%;
+  height: 100%;
+}

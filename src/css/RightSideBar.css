@@ -38,4 +38,5 @@
 
 .tc-ts .ts-tn span:hover {
   background-color: rgb(26, 145, 218, 0.8);
+  color: aliceblue;
 }

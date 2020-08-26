@@ -23,3 +23,17 @@ a:hover {
   /* border-radius: 25px; */
   text-decoration: underline;
 }
+
+.rs-wrapper a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.rs-wrapper section {
+  line-height: 32px;
+}
+
+.ressection {
+  /* background-color: #f0f2f5; */
+  /* border: 2px solid rebeccapurple; */
+}
