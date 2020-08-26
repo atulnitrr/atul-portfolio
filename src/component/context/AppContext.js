@@ -6,6 +6,7 @@ import icInitialState from "./interviewcornerInitialState";
 import jsrInitialState from "./javaScriptResourcesInitialState";
 import setupInitialState from "./setupInitialState";
 import reactJsInitialState from "./reactJsResourceInitialState";
+import designInitialState from "./designInitialState";
 
 const AppContext = createContext();
 
@@ -16,6 +17,7 @@ const appInitialState = {
   jsInitialState: jsrInitialState,
   rjsInitialState: reactJsInitialState,
   setupInitialState: setupInitialState,
+  designInitialState: designInitialState,
 };
 
 export default AppContext;

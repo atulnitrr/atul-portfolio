@@ -13,6 +13,7 @@ function LeftSideBar() {
         <Link to="/rjs">ReactJsResources</Link>
         <Link to="/js">JavaScriptResources</Link>
         <Link to="/setups">Setups</Link>
+        <Link to="/ds">Design</Link>
         <Link to="/ic">InterviewCorner</Link>
       </div>
     </aside>

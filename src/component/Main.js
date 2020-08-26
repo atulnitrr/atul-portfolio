@@ -9,6 +9,7 @@ import JavaScriptResources from "./resources/JavaScriptResources";
 import Setups from "./Setups";
 import Home from "./Home";
 import ReactJsResource from "./resources/ReactJsResource";
+import DeesinResources from "./DeesinResources";
 
 function Main() {
   return (
@@ -20,6 +21,7 @@ function Main() {
         <Route path="/js" component={JavaScriptResources} exact />
         <Route path="/rjs" component={ReactJsResource} exact />
         <Route path="/setups" component={Setups} exact />
+        <Route path="/ds" component={DeesinResources} exact />
         <Route path="/ic" component={InterviewCorners} exact />
         <Route path="/" component={Home} />
         <Route>
