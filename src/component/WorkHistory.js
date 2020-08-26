@@ -53,7 +53,7 @@ function WorkHistory(props) {
                 </li>
                 <li>
                   <strong>Award : </strong>
-                  Won champion of the quarter award, for this work.
+                  Got champion of the quarter award, for this work.
                 </li>
               </ul>
             </div>
@@ -69,7 +69,7 @@ function WorkHistory(props) {
                 <li>
                   Built search, review backend service, that fetches the
                   inventory detail from SQ airline. These results are shown to
-                  users when he searches on MMT website.
+                  users when he searches on MMT platform.
                 </li>
                 <li>
                   Built booking backend service, that creates the actual
