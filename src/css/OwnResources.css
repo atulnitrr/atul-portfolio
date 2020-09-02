@@ -1,0 +1,28 @@
+.own-res {
+  padding: 5px 10px;
+  overflow: auto;
+  /* background-color: lightblue; */
+
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.own-res > * {
+  background-color: rgba(0, 0, 0, 0.07);
+  padding: 2px 3px;
+  margin-top: 10px;
+}
+
+.own-res section h4 {
+  text-align: center;
+}
+.own-res section code {
+  display: block;
+  margin-top: 5px;
+  font-size: 19px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
