@@ -16,6 +16,12 @@ const reactJsInitialState = [
       "https://reacttraining.com/blog/react-router-v6-pre/#introducing-routes",
     id: 3,
   },
+  {
+    title: "missing introduction of react",
+    url:
+      "https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76",
+    id: 4,
+  },
 ];
 
 export default reactJsInitialState;
