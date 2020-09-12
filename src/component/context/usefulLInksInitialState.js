@@ -51,6 +51,11 @@ const usefulLinkInitialState = [
     url: "https://www.2ndquadrant.com/en/postgresql/",
     id: 9,
   },
+  {
+    title: "staff engineers",
+    url: "https://staffeng.com/stories",
+    id: 10,
+  },
 ];
 
 export default usefulLinkInitialState;

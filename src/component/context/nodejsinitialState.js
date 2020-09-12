@@ -20,7 +20,7 @@ const nodejsInitialState = [
     title: "pgsql simple setup",
     url:
       "https://blog.logrocket.com/setting-up-a-restful-api-with-node-js-and-postgresql-d96d6fc892d8/",
-    id: 3,
+    id: 4,
   },
 ];
 
