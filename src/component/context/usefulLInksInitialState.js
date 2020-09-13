@@ -56,6 +56,11 @@ const usefulLinkInitialState = [
     url: "https://staffeng.com/stories",
     id: 10,
   },
+  {
+    title: "how gitlab upgraded to PostgreSQL",
+    url: "https://about.gitlab.com/blog/2020/09/11/gitlab-pg-upgrade/",
+    id: 11,
+  },
 ];
 
 export default usefulLinkInitialState;
