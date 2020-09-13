@@ -10,6 +10,75 @@ function MyProjects() {
       <div className="mpl">
         <div className="singleproject">
           <a
+            href="https://atulnitrr-project-tracker.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Project tracker{" "}
+          </a>
+          <div className="pd">
+            <div>
+              <span>Description: </span> Jira like system to track progress of
+              project, like creating user story , task etc.
+            </div>
+            <div className="pdurl">
+              <span>Project url : </span>{" "}
+              <a
+                href="https://atulnitrr-project-tracker.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://atulnitrr-project-tracker.netlify.app/
+              </a>
+            </div>
+            <div className="pdurl">
+              <span>Backend url : </span>{" "}
+              <a
+                href="https://atulknitrr-project-tracker.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://atulknitrr-project-tracker.herokuapp.com/
+              </a>
+            </div>
+            <div className="pdurl">
+              <span>Forntend github : </span>{" "}
+              <a
+                href="https://github.com/atulnitrr/project_tracker_front"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/atulnitrr/project_tracker_front
+              </a>
+            </div>
+            <div className="pdurl">
+              <span>Backend github : </span>{" "}
+              <a
+                href="https://github.com/atulnitrr/project_tracker_back"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/atulnitrr/project_tracker_back
+              </a>
+            </div>
+            <div>
+              <span>Frontend tech </span> : ReactJs {",  "}
+              <span>Grid {",  "}</span>
+              <span>FlexBox {", "}</span>
+              <span className="danger">No external css libray </span>
+            </div>
+            <div>
+              <span>Backend tech </span> : NodeJs {",   "}
+              <span>Express </span>
+            </div>
+            <div>
+              <span>Database </span> : Postgresql
+            </div>
+          </div>
+        </div>
+
+        <div className="singleproject">
+          <a
             href="https://atulnitrr-chat-app.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
@@ -76,55 +145,54 @@ function MyProjects() {
 
         <div className="singleproject">
           <a
-            href="https://atulnitrr-project-tracker.netlify.app/"
+            href="https://atulnitrr-chat-app.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Project tracker{" "}
+            Url shortener{" "}
           </a>
           <div className="pd">
             <div>
-              <span>Description: </span> Jira like system to track progress of
-              project, like creating user story , task etc.
+              <span>Description: </span> Url shortener like bit.ly
             </div>
             <div className="pdurl">
               <span>Project url : </span>{" "}
               <a
-                href="https://atulnitrr-project-tracker.netlify.app/"
+                href="https://atulnitrr-url-shortener.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://atulnitrr-project-tracker.netlify.app/
+                https://atulnitrr-url-shortener.netlify.app/
               </a>
             </div>
             <div className="pdurl">
               <span>Backend url : </span>{" "}
               <a
-                href="https://atulknitrr-project-tracker.herokuapp.com/"
+                href="https://atulnitrr-url-shortener.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://atulknitrr-project-tracker.herokuapp.com/
+                https://atulnitrr-url-shortener.herokuapp.com/
               </a>
             </div>
             <div className="pdurl">
               <span>Forntend github : </span>{" "}
               <a
-                href="https://github.com/atulnitrr/project_tracker_front"
+                href="https://github.com/atulnitrr/url_shortener_front"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://github.com/atulnitrr/project_tracker_front
+                https://github.com/atulnitrr/url_shortener_front
               </a>
             </div>
             <div className="pdurl">
               <span>Backend github : </span>{" "}
               <a
-                href="https://github.com/atulnitrr/project_tracker_back"
+                href="https://github.com/atulnitrr/url_shortener_back"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://github.com/atulnitrr/project_tracker_back
+                https://github.com/atulnitrr/url_shortener_back
               </a>
             </div>
             <div>
@@ -135,10 +203,7 @@ function MyProjects() {
             </div>
             <div>
               <span>Backend tech </span> : NodeJs {",   "}
-              <span>Express </span>
-            </div>
-            <div>
-              <span>Database </span> : Postgresql
+              <span>Express {",  "}</span>
             </div>
           </div>
         </div>
