@@ -61,6 +61,12 @@ const usefulLinkInitialState = [
     url: "https://about.gitlab.com/blog/2020/09/11/gitlab-pg-upgrade/",
     id: 11,
   },
+  {
+    title: "Google.com profiling",
+    url:
+      "https://requestmetrics.com/web-performance/performance-profiling-google",
+    id: 12,
+  },
 ];
 
 export default usefulLinkInitialState;

@@ -27,6 +27,12 @@ const designInitialState = [
       "https://github.com/donnemartin/system-design-primer/blob/master/README.md",
     id: 5,
   },
+  {
+    title: "Discord app ",
+    url:
+      "https://blog.discord.com/how-discord-handles-two-and-half-million-concurrent-voice-users-using-webrtc-ce01c3187429",
+    id: 6,
+  },
 ];
 
 export default designInitialState;
