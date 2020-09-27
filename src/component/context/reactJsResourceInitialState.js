@@ -22,6 +22,17 @@ const reactJsInitialState = [
       "https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76",
     id: 4,
   },
+  {
+    title: "react internal",
+    url:
+      "https://www.mattgreer.org/articles/react-internals-part-one-basic-rendering/",
+    id: 5,
+  },
+  {
+    title: "kent kobs",
+    url: "https://kentcdodds.com/blog/authentication-in-react-applications",
+    id: 6,
+  },
 ];
 
 export default reactJsInitialState;

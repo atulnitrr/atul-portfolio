@@ -21,6 +21,16 @@ const jsrInitialState = [
     url: "https://inventi.studio/en/blog/why-you-shouldnt-use-moment-js",
     id: 4,
   },
+  {
+    title: "bits and piecs",
+    url: "https://blog.bitsrc.io/",
+    id: 5,
+  },
+  {
+    title: "build your first web page",
+    url: "https://learn.shayhowe.com/html-css/building-your-first-web-page/",
+    id: 6,
+  },
 ];
 
 export default jsrInitialState;
