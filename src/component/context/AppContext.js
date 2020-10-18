@@ -7,6 +7,7 @@ import jsrInitialState from "./javaScriptResourcesInitialState";
 import setupInitialState from "./setupInitialState";
 import reactJsInitialState from "./reactJsResourceInitialState";
 import designInitialState from "./designInitialState";
+import databaseInititalState from "./databaseInitialState";
 
 const AppContext = createContext();
 
@@ -18,6 +19,7 @@ const appInitialState = {
   rjsInitialState: reactJsInitialState,
   setupInitialState: setupInitialState,
   designInitialState: designInitialState,
+  databaseInititalState: databaseInititalState,
 };
 
 export default AppContext;

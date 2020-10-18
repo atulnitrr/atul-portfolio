@@ -93,6 +93,12 @@ const usefulLinkInitialState = [
     url: "https://rightalot.com/blog/2020919layer-build-and-risk",
     id: 16,
   },
+  {
+    title: "fast-reinforcement-learning",
+    url:
+      "https://deepmind.com/blog/article/fast-reinforcement-learning-through-the-composition-of-behaviours",
+    id: 17,
+  },
 ];
 
 export default usefulLinkInitialState;

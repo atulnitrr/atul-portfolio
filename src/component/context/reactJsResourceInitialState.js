@@ -33,6 +33,11 @@ const reactJsInitialState = [
     url: "https://kentcdodds.com/blog/authentication-in-react-applications",
     id: 6,
   },
+  {
+    title: "pass props to component render by Route",
+    url: "https://ui.dev/react-router-v4-pass-props-to-components/",
+    id: 7,
+  },
 ];
 
 export default reactJsInitialState;

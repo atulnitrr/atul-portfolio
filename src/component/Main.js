@@ -11,6 +11,7 @@ import Home from "./Home";
 import ReactJsResource from "./resources/ReactJsResource";
 import DeesinResources from "./DeesinResources";
 import OwnResources from "./OwnResources";
+import DatabaseResources from "./DatabaseResources";
 
 function Main() {
   return (
@@ -25,6 +26,7 @@ function Main() {
         <Route path="/ds" component={DeesinResources} exact />
         <Route path="/ic" component={InterviewCorners} exact />
         <Route path="/own" component={OwnResources} exact />
+        <Route path="/db" component={DatabaseResources} exact />
         <Route path="/" component={Home} />
         <Route>
           <NotFound></NotFound>
