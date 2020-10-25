@@ -11,6 +11,7 @@ function LeftSideBar() {
         <Link to="/usefulinks">UsefulBlogs</Link>
         <Link to="/nodejs">NodejsResources</Link>
         <Link to="/rjs">ReactJsResources</Link>
+        <Link to="/htmlcss">Htmlcss</Link>
         <Link to="/js">JavaScriptResources</Link>
         <Link to="/db">Databases</Link>
         <Link to="/setups">Setups</Link>

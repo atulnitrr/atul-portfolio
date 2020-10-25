@@ -12,6 +12,7 @@ import ReactJsResource from "./resources/ReactJsResource";
 import DeesinResources from "./DeesinResources";
 import OwnResources from "./OwnResources";
 import DatabaseResources from "./DatabaseResources";
+import HtmlCssResources from "./resources/HtmlCssResources";
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
         <Route path="/usefulinks" component={UseFulLinks} exact />
         <Route path="/nodejs" component={NodeResource} exact />
         <Route path="/js" component={JavaScriptResources} exact />
+        <Route path="/htmlcss" component={HtmlCssResources} exact />
         <Route path="/rjs" component={ReactJsResource} exact />
         <Route path="/setups" component={Setups} exact />
         <Route path="/ds" component={DeesinResources} exact />

@@ -8,6 +8,7 @@ import setupInitialState from "./setupInitialState";
 import reactJsInitialState from "./reactJsResourceInitialState";
 import designInitialState from "./designInitialState";
 import databaseInititalState from "./databaseInitialState";
+import htmlCssInititalState from "./htmlCssInitialState";
 
 const AppContext = createContext();
 
@@ -20,6 +21,7 @@ const appInitialState = {
   setupInitialState: setupInitialState,
   designInitialState: designInitialState,
   databaseInititalState: databaseInititalState,
+  htmlCssInititalState: htmlCssInititalState,
 };
 
 export default AppContext;

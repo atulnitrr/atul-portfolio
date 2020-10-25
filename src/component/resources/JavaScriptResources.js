@@ -5,7 +5,7 @@ import AppContext from "../context/AppContext";
 import ResourceLinks from "../ResourceLinks";
 
 function JavaScriptResources() {
-  useGetPageTitle("Java script resources");
+  useGetPageTitle("Javascript resources");
   const {
     appInitialState: { jsInitialState },
   } = useContext(AppContext);
